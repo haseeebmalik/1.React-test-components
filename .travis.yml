@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain:
+  domain: recondite-birth.surge.sh
   project: ./build/
 
 on:
