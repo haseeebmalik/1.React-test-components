@@ -6,7 +6,8 @@ script:
   - npm install
   - npm test
   - npm run build
-
+// this is used to cashes all dependencies first time ,so to speed up
+//deploment next time
 cache:
   dependencies: node_modules
 
