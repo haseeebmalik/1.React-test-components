@@ -7,6 +7,9 @@ script:
   - npm test
   - npm run build
 
+cache:
+  dependencies: node_modules
+
 deploy:
   provider: surge
   skip_cleanup: true
